@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: "Merriweather", serif;
+  font-family: Merriweather, serif;
   font-weight: normal;
   line-height: 1.5;
 }
@@ -13,16 +13,21 @@ img {
   width: 100%;
 }
 
-body {
-  grid-template-areas:
-    "main"
+.banner {
+  grid-column: 1 / -1;
+  grid-row: 1 / -1;
 }
 
-main{
+body {
+  grid-template-areas:
+    "main";
+}
+
+main {
   display: grid;
-  grid-template-columns: repeat(3,1fr);
+  grid-template-columns: repeat(3, 1fr);
   grid-area: main;
-  gap: .75rem
+  gap: .75rem;
 }
 
 h1 {
@@ -39,6 +44,8 @@ figcaption {
   color: #fff;
   font-style: italic;
   font-size: 1.5rem;
+  grid-column: 1;
+  grid-row: 2;
 }
 
 article p {
