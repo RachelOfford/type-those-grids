@@ -54,6 +54,7 @@ main {
   grid-template-rows: 1fr;
   grid-area: main;
   gap: .75rem;
+  align-self: center;
 }
 
 dl {
