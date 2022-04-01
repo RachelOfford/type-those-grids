@@ -18,7 +18,7 @@ img {
 .banner {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 1fr 4rem;
+  grid-template-rows: 1fr 1rem;
 }
 
 body {
@@ -57,7 +57,6 @@ main {
 dl {
   display: grid;
   grid-column: 1;
-  grid-row: 3;
   grid-template-columns: repeat(3, 1fr);
 }
 
