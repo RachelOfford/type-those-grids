@@ -23,7 +23,9 @@ img {
 }
 
 body {
-  grid-template-areas: "main";
+  display: grid;
+  grid-template-columns: 12rem 1fr;
+  grid-template-areas: "header" "main";
 }
 
 h1 {
