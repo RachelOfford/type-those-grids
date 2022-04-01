@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: "Merriweather", serif;
+  font-family: "PT Serif", serif;
   font-weight: lighter;
   line-height: 1.5;
 }
@@ -27,6 +27,7 @@ main {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-area: main;
+  grid-template-rows: align-self;
   gap: .75rem;
 }
 
