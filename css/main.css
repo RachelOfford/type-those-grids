@@ -57,10 +57,10 @@ main {
 dl {
   display: grid;
   grid-column: 1;
-  grid-row: 4;
+  grid-row: 3;
+  grid-template-columns: repeat(3, 1fr);
 }
 
 dl dt {
   font-style: italic;
-
 }
