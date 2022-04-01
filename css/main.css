@@ -59,6 +59,8 @@ main {
   grid-area: main;
   gap: .75rem;
   align-self: center;
+  margin: 1rem, 1.75rem;
+  padding: 1rem, 1.75rem;
 }
 
 dl {
