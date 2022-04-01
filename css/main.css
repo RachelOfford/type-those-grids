@@ -47,7 +47,7 @@ article p {
   color: #fff;
 }
 
-article figure img {
+article {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-area: main;
