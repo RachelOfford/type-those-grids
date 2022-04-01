@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: Merriweatherf;
+  font-family: "Merriweather", serif;
   font-weight: normal;
   line-height: 1.5;
 }
@@ -11,6 +11,18 @@ html {
 
 img {
   width: 100%;
+}
+
+body {
+  grid-template-areas:
+    "main"
+}
+
+main{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-area: main;
+  gap: .75rem
 }
 
 h1 {
