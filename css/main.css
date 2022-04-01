@@ -73,7 +73,6 @@ dl {
   display: grid;
   grid-column: 1;
   grid-row: 3;
-  grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1fr;
   align-self: center;
 }
