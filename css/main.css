@@ -59,17 +59,6 @@ main {
   grid-area: main;
   gap: .75rem;
   align-self: center;
-  margin: 1rem, 1.5rem;
-  padding: 1rem, 1.5rem;
-}
-
-dl {
-  display: grid;
-  grid-column: 1;
-  grid-row: 3;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 1fr;
-  align-self: center;
 }
 
 dl dt {
