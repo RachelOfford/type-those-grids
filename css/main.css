@@ -50,10 +50,8 @@ article p {
 main {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
   grid-area: main;
-}
-
-main img {
   gap: .75rem;
 }
 
@@ -62,6 +60,7 @@ dl {
   grid-column: 1;
   grid-row: 3;
   grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
 }
 
 dl dt {
