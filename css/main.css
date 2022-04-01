@@ -58,12 +58,15 @@ article p {
 }
 
 main {
+  align-self: center;
+}
+
+article {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1fr;
   grid-area: main;
   gap: .75rem;
-  align-self: center;
 }
 
 dl {
