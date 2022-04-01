@@ -15,12 +15,10 @@ img {
 
 .banner {
   grid-column: 1 / -1;
-  grid-row: 1 / -1;
 }
 
 body {
-  grid-template-areas:
-    "main";
+  grid-template-areas: "main";
 }
 
 main {
