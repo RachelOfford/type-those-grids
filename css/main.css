@@ -33,6 +33,7 @@ body {
 
 header {
   grid-area: header;
+  align-self: stretch;
 }
 
 h1 {
