@@ -24,7 +24,7 @@ img {
 
 body {
   display: grid;
-  grid-template-columns: 12rem 1fr;
+  grid-template-columns: auto;
   grid-template-areas: "header" "main";
 }
 
