@@ -18,13 +18,12 @@ img {
 
 .banner {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1fr 2rem;
 }
 
 body {
   display: grid;
-  grid-template-areas: "header header header" "sidebar main";
+  grid-template-areas: "header header header" "main";
 }
 
 header {
@@ -57,7 +56,7 @@ main {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1fr;
-  grid-area: sidebar;
+  grid-area: main;
   gap: .75rem;
   align-self: center;
 }
