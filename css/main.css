@@ -33,10 +33,6 @@ h1 {
 h2 {
   font-size: 1.5rem;
   font-style: italic;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-area: main;
-  gap: .75rem;
 }
 
 figcaption {
@@ -58,6 +54,13 @@ main {
   gap: .75rem;
 }
 
+dl {
+  display: grid;
+  grid-column: 1;
+  grid-row: 4;
+}
+
 dl dt {
   font-style: italic;
+
 }
