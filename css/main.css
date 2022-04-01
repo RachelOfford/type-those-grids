@@ -23,6 +23,13 @@ body {
     "main";
 }
 
+main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-area: main;
+  gap: .75rem;
+}
+
 h1 {
   font-size: 1.8rem;
   font-style: italic;
@@ -47,9 +54,7 @@ article p {
 
 dl {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-area: main;
-  gap: .75rem;
+
 }
 
 dl dt {
