@@ -28,6 +28,10 @@ body {
   grid-template-areas: "header" "main";
 }
 
+header {
+  grid-area: header;
+}
+
 h1 {
   font-size: 1.8rem;
   font-style: italic;
