@@ -19,7 +19,7 @@ img {
 .banner {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 2rem;
+  grid-template-rows: 1fr 2rem;
 }
 
 body {
@@ -57,7 +57,7 @@ main {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1fr;
-  grid-area: sidebar main;
+  grid-area: sidebar;
   gap: .75rem;
   align-self: center;
 }
