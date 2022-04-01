@@ -13,12 +13,13 @@ img {
   width: 100%;
   grid-column: 1 / -1;
   grid-row: 1 / -1;
+  gap: .75rem;
 }
 
 .banner {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: align-self;
+  grid-template-rows: 1fr 2rem;
 }
 
 body {
