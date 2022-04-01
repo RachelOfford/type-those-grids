@@ -22,12 +22,13 @@ header article figure img {
 .banner {
   display: grid;
   align-self: center;
+  grid-area: hedding;
 }
 
 body {
   display: grid;
   grid-template-columns: auto;
-  grid-template-areas: "main";
+  grid-template-areas: "hedding" "main";
 }
 
 h1 {
