@@ -1,7 +1,7 @@
 html {
   box-sizing: border-box;
-  font-family: 'Merriweather', serif;
-  font-weight: normal;
+  font-family: "Merriweather", serif;
+  font-weight: lighter;
   line-height: 1.5;
 }
 
@@ -21,13 +21,6 @@ img {
 body {
   grid-template-areas:
     "main";
-}
-
-main {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-area: main;
-  gap: .75rem;
 }
 
 h1 {
@@ -50,6 +43,13 @@ figcaption {
 
 article p {
   color: #fff;
+}
+
+dl {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-area: main;
+  gap: .75rem;
 }
 
 dl dt {
