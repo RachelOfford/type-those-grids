@@ -11,6 +11,9 @@ html {
 
 img {
   width: 100%;
+}
+
+header article figure img {
   grid-column: 1 / -1;
   grid-row: 1 / -1;
   gap: .75rem;
